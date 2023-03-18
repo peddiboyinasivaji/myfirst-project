@@ -1,0 +1,30 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astro-Blog</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <script src="./javaScript/index.js"></script>
+</head>
+ <body>
+        <div id="outerdiv">
+        <div id="innerdiv">
+                <h1 id="Heading">Login</h1>
+            <form>
+                <div id="emaildiv">
+                    <input class="in" id="userEmail" type="email" placeholder="Enter the Email">
+                </div>
+                <div id="passdiv">
+                    <input class="in" id="userPass" type="password" placeholder="Enter the Password">
+                    <img id="visible" src="./a/closeeye.jpg" onmousedown="visiblePass()" onmouseup="inVisiblePass()">
+                </div>
+                <span id="status"></span>
+                <input id="loginbut" type="button" value="Login" onclick="accesstopage()">
+            </form>
+        </div>
+    </div>
+</body>
+</html>

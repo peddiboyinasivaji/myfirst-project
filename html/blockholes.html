@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <title>Gallary-blackholes</title>
+      <script src="../javaScript/blackholes.js" defer></script>
+      <link rel="stylesheet" href="../css/blackhole.css">
+      <link rel="stylesheet" href="../css/navbar.css">
+</head>
+<body>
+    <div id="header">
+        <h1 id="heading">Gallary Of block holes</h1>
+        <input class="b" id="left" type="button" value="<" onclick="dec()">
+        <input class="b" id="right" type="button" value=">" onclick="inc()">
+    </div>
+    <div id="navbar">
+        <ul id="mainlist">
+           <a href="./home.html"><li class="mli">HOME</li></a>
+           <a href="#"><li class="mli">Info</li></a>
+            <li class="mli" id="sublistobj">Objects
+                <ul id="sublist">
+                    <li class="sli"><a href="./planets.html">Planets</a></li>
+                    <li class="sli">Stars</li>
+                    <li class="sli" ><a href="./blockholes.html">Blackhole</a></li>
+                    <li class="sli"><a href="./Astroid.html">Astroids</a></li>
+                    <li class="sli">satellite</li>
+                </ul>
+            </li>
+            <a href="#"> <li class="mli">Logout</li></a>
+        </ul>
+    </div>
+<div id="garllaryImages">
+    <img class="a"  onclick="openImg(1,'supermassive','Lurking at the center of the Milky Way is a gargantuan black hole that tips the scales at several million times the mass of the Sun. Like all black holes, this supermassive monster — called Sagittarius A* — devours anything that falls too close, including light. However, consuming material is just one way these monsters grow to truly astronomical sizes, reaching mindboggling weights. Although astronomers often talk about black holes as being gigantic objects, it’s important to remember they’re usually referring to the object’s mass, not its physical size.')">
+    <img class="a"  onclick="openImg(2,'earth&sun','Earth has a mass of some 6x1024 kilograms. And though that’s more massive than any human can truly comprehend, when it comes to black holes, Earth is puny.')">
+    <img class="a"  onclick="openImg(3,'iilution','hereas in reality, the illusion is just a still image of a black hole surrounded by tiny black dots. The deceptive image is called the ‘expanding hole’. It was created by Akiyoshi Kitaoka, a psychologist from Ritsumeikan University in Osaka, Japan.')">
+    <img class="a"  onclick="openImg(4,'wormhole','A wormhole (Einstein-Rosen bridge) is a hypothetical structure connecting disparate points in spacetime, and is based on a special solution of the Einstein field equations. A wormhole can be visualized as a tunnel with two ends at separate points in spacetime (i.e., different locations, different points in time, or both).')">
+    <img class="a"  onclick="openImg(5,'bulletsun','A stellar-mass black hole, with a mass of tens of times the mass of the Sun, can likely form in seconds, after the collapse of a massive star. These relatively small black holes can also be made through the merger of two dense stellar remnants called neutron stars. A neutron star can also merge with a black hole to make a bigger black hole, or two ...')">
+</div>
+<div id="subWindow" style="display: none;">
+    <h1 id="close" onclick="closeImg()">X</h1>
+
+<div id="subWindow1">
+    <img id="subWindowImg" id="fullimg" src="../a/blackhole/blackhole2.jpg">
+</div>
+<div id="subWindow2">
+    <h1 id="imageHeading">Heading</h1>
+    <p id="imgpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, odio?</p>
+</div>
+</div>
+</body>
+</html>
